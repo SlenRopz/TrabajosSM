@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago Marchesi</title>
+    <link rel="stylesheet" href="estiloSantiago.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="left-section">
+            <img src="templatemo_logo.png" alt="Imagen Izquierda" class="header-image">
+            <p class="texto">Eco Tree</p>
+        </div>
+        <div class="middle-section">
+            <img src="decorarja.jpg" alt="Imagen del medio">
+        </div>
+        <div class="right-section">
+            <nav>
+            <ul>
+                <li>
+                    <img src="home.png" alt="Inicio" class="imagen-boton">
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <img src="my-account.png" alt="Nosotros" class="imagen-boton">
+                    <a href="#">Nosotros</a>
+                </li>
+                <li>
+                    <img src="drawings.png" alt="Galería" class="imagen-boton">
+                    <a href="#">Galería</a>
+                </li>
+                <li>
+                    <img src="special-offer.png" alt="Servicios" class="imagen-boton">
+                    <a href="#">Servicios</a>
+                </li>
+                <li>
+                    <img src="email.png" alt="Contacto" class="imagen-boton">
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+</body>
+</html>
+
+<body>
+    <div class="left">
+        <h1>Contacto</h1>
+        <h2>Envia tu mensaje</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <input type="text" placeholder="Asunto" required>
+            <textarea placeholder="Mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div class="right">
+        <h1>¡Nuestros trabajos, clientes contentos!</h1>
+        <div class="image-container">
+            <img src="1.jpg" alt="Trabajo 1">
+            <img src="2.jpg" alt="Trabajo 2">
+            <img src="3.jpg" alt="Trabajo 3">
+            <img src="4.jpg" alt="Trabajo 4">
+            <img src="5.jpg" alt="Trabajo 5">
+            <img src="6.jpg" alt="Trabajo 6">
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="social-media">
+                <p>Nos puedes encontrar en:</p>
+                <div class="social-icons">
+                    <p>Facebook</p>
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="facebook.png" alt="Facebook" class="social-icon"> <br>
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <p>Twitter</p>
+                        <img src="twitter2.png" alt="Twitter" class="social-icon">
+                        <br><br><br>
+                    </a>
+                    <a href="https://youtube.com" target="_blank">
+                        <p>YouTube</p>
+                        <img src="youtube.png" alt="YouTube" class="social-icon"> 
+                              
+                    </a>
+                </div>
+            </div>
+            <div class="services">
+                <h2>Nuestros servicios</h2>
+                <p>Jardineria general.<br>
+                   Paisajismo<br>
+                   Poda de arboles<br>
+                   Plantas frutales de estacion<br>
+                   Huerta organica<br>
+                   Y cualquier inquietud que tengas sobre tu sistema de riesgo.<br></p>
+            </div>
+            <div class="about-us">
+                <h2>Nosotros</h2>
+                <p>Somos una empresa cordobesa. Contamos con un equipo de profesionales, con el fin de brindarles a nuestros clientes, un producto de calidad y el asesoramiento adecuado. Poseemos gran variedad de servicio, puedes hacer tu consulta!</p>
+            </div>
+        </div>
+    </footer>
+   
+</body>
+</html>
