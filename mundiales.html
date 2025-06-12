@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mundiales de Fútbol</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+   
+  body {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: rgb(240, 229, 229);
+  }
+  .card-mundial, .card-estadistica {
+    background-color: #c08e8e;
+    color: #000;
+  }
+  .form-section {
+    background-color: #ffffff;
+    color: #000;
+  }
+  h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .section-title {
+      margin-top: 40px;
+    }
+
+    .estadistica-img {
+  max-width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  font-size: 0.95rem;
+  border-top: 2px solid #ffffff33;
+}
+
+</style>
+
+</head>
+<body>
+
+  <div class="container mt-5">
+    <h1>Copa Mundial de la FIFA</h1>
+
+    <!-- Login y Registro -->
+   <div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card shadow border-primary">
+        <div class="card-header bg-primary text-white text-center">
+          <h4>Iniciar Sesión</h4>
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="mb-3">
+              <label for="loginEmail" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="loginEmail" placeholder="ejemplo@correo.com">
+            </div>
+            <div class="mb-3">
+              <label for="loginPassword" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="loginPassword" placeholder="Contraseña">
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Ingresar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card shadow border-success">
+        <div class="card-header bg-success text-white text-center">
+          <h4>Crear Cuenta</h4>
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="mb-3">
+              <label for="registerName" class="form-label">Nombre completo</label>
+              <input type="text" class="form-control" id="registerName" placeholder="Tu nombre">
+            </div>
+            <div class="mb-3">
+              <label for="registerEmail" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="registerEmail" placeholder="ejemplo@correo.com">
+            </div>
+            <div class="mb-3">
+              <label for="registerPassword" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="registerPassword" placeholder="Contraseña">
+            </div>
+            <button type="submit" class="btn btn-success w-100">Registrar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Mundiales Recientes -->
+<h2 class="section-title">Mundiales Recientes</h2>
+<div class="row">
+  <div class="col-md-4">
+    <div class="card card-mundial">
+      <img src="brasil2014.jpg" class="card-img-top" alt="Brasil 2014">
+      <div class="card-body">
+        <h5 class="card-title">Brasil 2014</h5>
+        <p class="card-text">Ganador: Alemania<br>Final: Alemania 1-0 Argentina</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card card-mundial">
+      <img src="rusia2018.jpg" class="card-img-top" alt="Rusia 2018">
+      <div class="card-body">
+        <h5 class="card-title">Rusia 2018</h5>
+        <p class="card-text">Ganador: Francia<br>Final: Francia 4-2 Croacia</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card card-mundial">
+      <img src="qatar2022.jpg" class="card-img-top" alt="Qatar 2022">
+      <div class="card-body">
+        <h5 class="card-title">Qatar 2022</h5>
+        <p class="card-text">Ganador: Argentina<br>Final: Argentina 3-3 Francia (4-2 en penales)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Goleadores -->
+<h2 class="section-title">Máximos Goleadores</h2>
+<div class="row">
+  <div class="col-md-4">
+    <div class="card card-estadistica">
+      <img src="klose.jpg" class="card-img-top" alt="Miroslav Klose">
+      <div class="card-body">
+        <h5 class="card-title">Miroslav Klose</h5>
+        <p class="card-text">Total: 16 goles<br>Alemania (2002, 2006, 2010, 2014)</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card card-estadistica">
+      <img src="ronaldo.jpg" class="card-img-top" alt="Ronaldo Nazário">
+      <div class="card-body">
+        <h5 class="card-title">Ronaldo Nazário</h5>
+        <p class="card-text">Total: 15 goles<br>Brasil (1998, 2002, 2006)</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card card-estadistica">
+      <img src="messi.jpg" class="card-img-top" alt="Lionel Messi">
+      <div class="card-body">
+        <h5 class="card-title">Lionel Messi</h5>
+        <p class="card-text">Total: 13 goles<br>Argentina (2006, 2014, 2018, 2022)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 class="section-title">Historial de Campeones del Mundo</h2>
+<div class="table-responsive mb-5">
+  <table class="table table-striped table-bordered table-hover">
+    <thead class="table-dark">
+      <tr>
+        <th>Año</th>
+        <th>Sede</th>
+        <th>Campeón</th>
+        <th>Subcampeón</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1930</td><td>Uruguay</td><td>Uruguay</td><td>Argentina</td></tr>
+      <tr><td>1934</td><td>Italia</td><td>Italia</td><td>Checoslovaquia</td></tr>
+      <tr><td>1938</td><td>Francia</td><td>Italia</td><td>Hungría</td></tr>
+      <tr><td>1950</td><td>Brasil</td><td>Uruguay</td><td>Brasil</td></tr>
+      <tr><td>1954</td><td>Suiza</td><td>Alemania</td><td>Hungría</td></tr>
+      <tr><td>1958</td><td>Suecia</td><td>Brasil</td><td>Suecia</td></tr>
+      <tr><td>1962</td><td>Chile</td><td>Brasil</td><td>Checoslovaquia</td></tr>
+      <tr><td>1966</td><td>Inglaterra</td><td>Inglaterra</td><td>Alemania</td></tr>
+      <tr><td>1970</td><td>México</td><td>Brasil</td><td>Italia</td></tr>
+      <tr><td>1974</td><td>Alemania</td><td>Alemania</td><td>Países Bajos</td></tr>
+      <tr><td>1978</td><td>Argentina</td><td>Argentina</td><td>Países Bajos</td></tr>
+      <tr><td>1982</td><td>España</td><td>Italia</td><td>Alemania</td></tr>
+      <tr><td>1986</td><td>México</td><td>Argentina</td><td>Alemania</td></tr>
+      <tr><td>1990</td><td>Italia</td><td>Alemania</td><td>Argentina</td></tr>
+      <tr><td>1994</td><td>EE.UU.</td><td>Brasil</td><td>Italia</td></tr>
+      <tr><td>1998</td><td>Francia</td><td>Francia</td><td>Brasil</td></tr>
+      <tr><td>2002</td><td>Corea/Japón</td><td>Brasil</td><td>Alemania</td></tr>
+      <tr><td>2006</td><td>Alemania</td><td>Italia</td><td>Francia</td></tr>
+      <tr><td>2010</td><td>Sudáfrica</td><td>España</td><td>Países Bajos</td></tr>
+      <tr><td>2014</td><td>Brasil</td><td>Alemania</td><td>Argentina</td></tr>
+      <tr><td>2018</td><td>Rusia</td><td>Francia</td><td>Croacia</td></tr>
+      <tr><td>2022</td><td>Qatar</td><td>Argentina</td><td>Francia</td></tr>
+    </tbody>
+  </table>
+
+<img src="mundialesCampeones.jpg" class="img-fluid rounded shadow estadistica-img" alt="Trofeo Mundial">
+
+
+</div>
+
+
+<h2 class="section-title">Estadísticas Generales</h2>
+<div class="row align-items-center mb-5">
+  <div class="col-md-6">
+    <img src="hungria1954.jpg" class="img-fluid rounded shadow" alt="Trofeo Mundial">
+  </div>
+  <div class="col-md-6">
+    <ul class="list-group list-group-flush bg-light rounded p-3">
+      <li class="list-group-item"><strong>Total de ediciones:</strong> 22 (hasta 2022)</li>
+      <li class="list-group-item"><strong>País con más títulos:</strong> Brasil (5 títulos)</li>
+      <li class="list-group-item"><strong>Jugador con más goles en total:</strong> Miroslav Klose (16 goles)</li>
+      <li class="list-group-item"><strong>Mayor goleada:</strong> Hungría 10-1 El Salvador (1982)</li>
+      <li class="list-group-item"><strong>Final con más goles:</strong> Francia 4-2 Croacia (2018)</li>
+      <li class="list-group-item"><strong>Mayor asistencia acumulada:</strong> EE.UU. 1994 (3.6 millones de espectadores)</li>
+    </ul>
+  </div>
+</div>
+
+
+   <h2 class="section-title">Sedes de los Mundiales</h2>
+<div class="table-responsive mb-5">
+  <table class="table table-bordered table-hover">
+    <thead class="table-dark text-center">
+      <tr>
+        <th>Año</th>
+        <th>País anfitrión</th>
+        <th>Ciudades principales</th>
+      </tr>
+    </thead>
+    <tbody class="text-center">
+      <tr><td>1930</td><td>Uruguay</td><td>Montevideo</td></tr>
+      <tr><td>1934</td><td>Italia</td><td>Roma, Milán, Nápoles</td></tr>
+      <tr><td>1938</td><td>Francia</td><td>París, Marsella, Estrasburgo</td></tr>
+      <tr><td>1950</td><td>Brasil</td><td>Río de Janeiro, São Paulo</td></tr>
+      <tr><td>1954</td><td>Suiza</td><td>Berna, Zúrich, Ginebra</td></tr>
+      <tr><td>1958</td><td>Suecia</td><td>Estocolmo, Gotemburgo</td></tr>
+      <tr><td>1962</td><td>Chile</td><td>Santiago, Viña del Mar</td></tr>
+      <tr><td>1966</td><td>Inglaterra</td><td>Londres, Manchester, Liverpool</td></tr>
+      <tr><td>1970</td><td>México</td><td>Ciudad de México, Guadalajara</td></tr>
+      <tr><td>1974</td><td>Alemania Occidental</td><td>Múnich, Frankfurt, Hamburgo</td></tr>
+      <tr><td>1978</td><td>Argentina</td><td>Buenos Aires, Rosario, Córdoba</td></tr>
+      <tr><td>1982</td><td>España</td><td>Madrid, Barcelona, Sevilla</td></tr>
+      <tr><td>1986</td><td>México</td><td>Ciudad de México, Monterrey</td></tr>
+      <tr><td>1990</td><td>Italia</td><td>Roma, Milán, Turín</td></tr>
+      <tr><td>1994</td><td>EE.UU.</td><td>Los Ángeles, Nueva York, Dallas</td></tr>
+      <tr><td>1998</td><td>Francia</td><td>París, Marsella, Lyon</td></tr>
+      <tr><td>2002</td><td>Corea del Sur / Japón</td><td>Seúl, Yokohama, Osaka</td></tr>
+      <tr><td>2006</td><td>Alemania</td><td>Berlín, Múnich, Dortmund</td></tr>
+      <tr><td>2010</td><td>Sudáfrica</td><td>Johannesburgo, Ciudad del Cabo</td></tr>
+      <tr><td>2014</td><td>Brasil</td><td>São Paulo, Río de Janeiro, Brasilia</td></tr>
+      <tr><td>2018</td><td>Rusia</td><td>Moscú, San Petersburgo, Sochi</td></tr>
+      <tr><td>2022</td><td>Qatar</td><td>Doha, Lusail, Al Wakrah</td></tr>
+    </tbody>
+  </table>
+
+  <div class="text-center mb-4">
+  <img src="sedes.jpg" alt="Mapa Sedes" class="img-fluid rounded shadow" style="max-width: 400px;">
+</div>
+
+</div>
+
+
+    
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+  <div class="container">
+    <p class="mb-1">&copy; 2025 MundialStats. Todos los derechos reservados.</p>
+    <p class="mb-0">Desarrollado por [Santiago Marchesi] - Datos históricos de la Copa Mundial de la FIFA</p>
+  </div>
+</footer>
+
+</body>
+</html>
